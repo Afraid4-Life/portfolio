@@ -1,0 +1,63 @@
+.body-background{
+    background-color: #282e34;
+    scroll-behavior: smooth;
+    width:75%;
+}
+
+.sidenav{
+    height:100%;
+    width:25%;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 3vw;
+    background-color:#20272F;
+    
+}
+
+.sidenavList{
+    list-style: none;
+}
+
+.sidenavList button{
+    text-decoration: none;
+    color: #eee;
+    font-size: 3vw;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.ProfileHeader img{
+    height: 6vw;
+}
+
+.ProfileHeader .Username{
+    font-size: 1vw;
+    text-decoration: none;
+    color:#eee;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Username:hover{
+    animation-name: scaleText;
+    animation-duration: 0.1s;
+    color:#075fe4;
+    font-size: 0.99vw;
+}
+
+.UserId{
+    color:#eee;
+    margin-top: -2.5vw;
+    font-size:0.8vw;
+}
+
+@keyframes scaleText {
+    from {font-size: 1vw;}
+    to {font-size: 0.99vw;}
+}
+
+.home-page{
+    color:#fef0de;
+}
+
