@@ -1,12 +1,25 @@
-.body-background{
+body{
     background-color: #282e34;
     scroll-behavior: smooth;
-    width:75%;
+    width:75%;;
 }
+
+.blur {
+    animation-name: blurBackground;
+    animation-duration: 0.5s;
+    filter: blur(8px);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+}
+
 
 .sidenav{
     height:100%;
     width:25%;
+    max-width: 25%;
     position: fixed; 
     z-index: 1; 
     top: 0; 
@@ -14,7 +27,6 @@
     overflow-x: hidden; 
     padding-top: 3vw;
     background-color:#20272F;
-    
 }
 
 .sidenavList{
@@ -52,9 +64,19 @@
     font-size:0.8vw;
 }
 
+.AboutMe .btn::after{
+    animation-name: blurBackground;
+    animation-duration: 0.3;
+}
+
 @keyframes scaleText {
     from {font-size: 1vw;}
     to {font-size: 0.99vw;}
+}
+
+@keyframes blurBackground {
+    from {filter: blur(0px);}
+    to {filter: blur(8px);}
 }
 
 .home-page{
