@@ -1,7 +1,8 @@
 body{
     background-color: #282e34;
     scroll-behavior: smooth;
-    width:75%;;
+    width:75%;
+    background-image: url(KenpanCompilation.png);
 }
 
 .blur {
@@ -13,6 +14,30 @@ body{
     -moz-filter: blur(8px);
     -o-filter: blur(8px);
     -ms-filter: blur(8px);
+}
+
+
+.col-xl-10{
+    color: white;
+    height: 100vh;
+    padding-top: 15vh;
+    margin-left: 40%;
+
+}
+.col-xl-10 h1{
+    text-align: center;
+    text-shadow: 4px 4px 6px black;
+}
+
+.AboutBody h6{
+    font-size: 22px;
+    text-shadow: 3px 1px 3px black;
+}
+.AboutHeader{
+    margin-left: 24vw;
+}
+.AboutHeader img{
+    height: 10vh;
 }
 
 
@@ -82,4 +107,3 @@ body{
 .home-page{
     color:#fef0de;
 }
-
