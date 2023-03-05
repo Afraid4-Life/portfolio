@@ -5,18 +5,6 @@ body{
     background-image: url(KenpanCompilation.png);
 }
 
-.blur {
-    animation-name: blurBackground;
-    animation-duration: 0.5s;
-    filter: blur(8px);
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    -moz-filter: blur(8px);
-    -o-filter: blur(8px);
-    -ms-filter: blur(8px);
-}
-
-
 .col-xl-10{
     color: white;
     height: 100vh;
@@ -40,7 +28,6 @@ body{
     height: 10vh;
 }
 
-
 .sidenav{
     height:100%;
     width:25%;
@@ -52,10 +39,6 @@ body{
     overflow-x: hidden; 
     padding-top: 3vw;
     background-color:#20272F;
-}
-
-.sidenavList{
-    list-style: none;
 }
 
 .sidenavList button{
@@ -89,21 +72,7 @@ body{
     font-size:0.8vw;
 }
 
-.AboutMe .btn::after{
-    animation-name: blurBackground;
-    animation-duration: 0.3;
-}
-
 @keyframes scaleText {
     from {font-size: 1vw;}
     to {font-size: 0.99vw;}
-}
-
-@keyframes blurBackground {
-    from {filter: blur(0px);}
-    to {filter: blur(8px);}
-}
-
-.home-page{
-    color:#fef0de;
 }
