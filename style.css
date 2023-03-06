@@ -5,6 +5,32 @@ body{
     background-image: url(KenpanCompilation.png);
 }
 
+.TitleLine{
+    color: #ffffff;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.col-4{
+    margin-right: 9vw;
+}
+.col-4 p{
+    margin-top: -0.1vw;
+}
+
+.AboutBody .btn{
+    margin-top: 3vw;
+    margin-left: 23vw;
+    background-color: #eeeeee00;
+    border-color: #eeeeee00;
+    text-shadow: 1px 1px 3px black;
+}
+
+.AboutBody .btn:Hover{
+    background-color: #20272F;
+    border-color: #20272F;
+}
+
 .col-xl-10{
     color: white;
     height: 100vh;
@@ -14,12 +40,16 @@ body{
 }
 .col-xl-10 h1{
     text-align: center;
-    text-shadow: 4px 4px 6px black;
+    text-shadow: 4px 2px 6px black;
+}
+
+.col-10{
+    margin-right: 100%;
 }
 
 .AboutBody h6{
     font-size: 22px;
-    text-shadow: 3px 1px 3px black;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
 .AboutHeader{
     margin-left: 24vw;
@@ -48,12 +78,20 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.sidenavList{
+    text-decoration: none;
+    list-style: none;
+}
+
 .ProfileHeader img{
     height: 6vw;
+    width: 6vw;
+    position: absolute;
 }
 
 .ProfileHeader .Username{
     font-size: 1vw;
+    margin-left: -1vw;
     text-decoration: none;
     color:#eee;
     font-family:Arial, Helvetica, sans-serif;
@@ -66,9 +104,19 @@ body{
     font-size: 0.99vw;
 }
 
+.sidenavList .btn:Hover{
+    color: #7a7e85;
+}
+
+.AboutMe .btn{
+    color: #7a7e85;
+}
+
+
 .UserId{
     color:#eee;
-    margin-top: -2.5vw;
+    margin-top: -4.5vw;
+    margin-left: -1vw;
     font-size:0.8vw;
 }
 
